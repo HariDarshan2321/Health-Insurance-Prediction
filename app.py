@@ -55,7 +55,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Header
-st.markdown('<h1 class="header">Insurance Premium Prediction</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="header">Health Insurance Premium Prediction</h1>', unsafe_allow_html=True)
 
 # Collect user inputs in a sidebar
 with st.sidebar:
