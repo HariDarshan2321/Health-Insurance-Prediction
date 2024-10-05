@@ -11,7 +11,7 @@ one_hot_encoder = joblib.load('one_hot_encoder.pkl')
 df_processed = pd.read_pickle('processed_data.pkl')  # Adjust the path to your processed data
 
 # Streamlit app title and layout configuration
-st.set_page_config(page_title='Insurance Premium Prediction', layout='wide')
+st.set_page_config(page_title='Health Insurance Premium Prediction', layout='wide')
 
 # Add custom CSS for styling
 st.markdown("""
